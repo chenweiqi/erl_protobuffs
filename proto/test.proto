@@ -1,0 +1,8 @@
+message Person {  
+  required bool age = 1[default=true];  
+  required string name = 2;  
+}  
+  
+message Family {  
+  repeated Person person = 1;  
+}  
